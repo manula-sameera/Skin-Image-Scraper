@@ -11,11 +11,8 @@ It scans multiple patch versions, locates skin sections based on their visual co
 - Scrapes patch note pages starting from Patch 11.1
 - Finds skin images by locating a nearby paragraph:  
   `"The following skins will be released in this patch"`
-- Supports `<p>` with or without the `summary` class
-- Detects `div.skin-box` blocks inside the correct section
 - Downloads images from `cmsassets.rgpub.io` directly
 - Names files using the official skin name from `skin-title`
-- Skips image resolution filtering (downloads all found skins)
 - Avoids duplicates and re-downloading
 
 ---
